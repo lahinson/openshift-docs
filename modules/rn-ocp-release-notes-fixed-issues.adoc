@@ -125,7 +125,6 @@ Instructions: Add entries in the following format under the appropriate heading:
 // [id="rn-ocp-release-note-node-fixed-issues_{context}"]
 // == Node
 
-
 [id="rn-ocp-release-note-node-tuning-operator-fixed-issues_{context}"]
 == Node Tuning Operator
 
