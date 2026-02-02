@@ -68,7 +68,12 @@ With this update, the search interface is enhanced, making it more noticeable an
 +
 link:https://issues.redhat.com/browse/CNV-70130[CNV-70130]
 
-New flag introduced to prevent unintentional VNC disconnects:: A new, optional `--preserve-session` flag has been introduced for VMs. This flag prevents an existing VNC console connection from being disconnected if you attempt to start a new session.
+Search bar added to the *Settings* page::
+With this update, a search bar is added to the *Virtualization* -> *Settings* page of the {product-title} web console. This allows users to easily search for different settings contained within the *Cluster*, *User*, or *Preview features* tabs.
++
+link:https://issues.redhat.com//browse/CNV-69189[CNV-69189]
+
+`--preserve-session` flag introduced to prevent unintentional VNC disconnects:: An optional `--preserve-session` flag has been introduced for VMs. This flag prevents an existing VNC console connection from being disconnected if you attempt to start a new session.
 +
 If you attempt to create a second connection to the VNC console by using the `virtctl` CLI when this flag is set, an error is displayed and the connection fails.
 +
