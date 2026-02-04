@@ -88,6 +88,11 @@ For more information, see xref:../../networking/k8s_nmstate/k8s-nmstate-updating
 +
 link:https://issues.redhat.com/browse/CNV-70202[CNV-70202]
 
+Viewing and changing the current memory overcommitment using the web console::
+You can view and change the memory overcommitment of the cluster from the *Virtualization* page of the web console.
++
+link:https://issues.redhat.com/browse/CNV-69276[CNV-69276]
+
 *Self validation* tab added to the *Checkups* page::
 With this update, cluster administrators can run a self-validation checkup on an {product-title} cluster from the *Self validation* tab in the *Virtualization* -> *Checkups* page of the web console. Users can download detailed results from the checkup as a ZIP file. This feature enables cluster administrators to execute extensive test suites on their clusters, helping to identify and address potential issues in advanced features and configurations.
 +
