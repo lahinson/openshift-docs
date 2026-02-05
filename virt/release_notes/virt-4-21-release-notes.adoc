@@ -59,6 +59,12 @@ link:https://issues.redhat.com/browse/CNV-61227[CNV-61227]
 
 // Storage
 
+Migrate VM disks to different storage classes::
+Previously, installation of {mtc-first} was required before migrating VM disks to different storage classes. This requirement no longer exists, as VM disk storage class migration is now native to {virtproductname}.
++
+In addition, it is no longer a requirement that the VMs you select for each bulk migration be in the same namespace.
++
+link:https://issues.redhat.com/browse/CNV-61829[CNV-61829]
 
 
 // Web console
@@ -99,12 +105,7 @@ link:https://issues.redhat.com/browse/CNV-59284[CNV-59284]
 
 // Documentation improvements
 
-
-
 // Notable technical changes
-
-
-
 
 
 [id="virt-4-21-deprecated_{context}"]
