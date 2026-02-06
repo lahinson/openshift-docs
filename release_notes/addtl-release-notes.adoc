@@ -19,7 +19,7 @@ A::
 xref:../networking/networking_operators/aws_load_balancer_operator/aws-load-balancer-operator-release-notes.adoc#aws-load-balancer-operator-release-notes[AWS Load Balancer Operator]
 
 B::
-link:https://docs.redhat.com/en/documentation/builds_for_red_hat_openshift/1.1/html/about_builds/ob-release-notes#ob-release-notes[{builds-v2title}]
+link:https://docs.redhat.com/en/documentation/builds_for_red_hat_openshift/1.7/html/release_notes/release-notes#release-notes[{builds-v2title}]
 
 C::
 xref:../security/cert_manager_operator/cert-manager-operator-release-notes.adoc#cert-manager-operator-release-notes[{cert-manager-operator}]
