@@ -46,7 +46,11 @@ The SVVP certification applies to:
 {ibm-name} Secure Execution for VMs on {ibm-z-name} and {ibm-linuxone-name} is generally available::
 {ibm-name} Secure Execution for VMs on {ibm-z-name} and {ibm-linuxone-name} is now generally available. This capability provides hardware based memory encryption that protects virtual machine workloads from access by the host or hypervisor environment. For more information, see xref:../../virt/creating_vm/virt-configuring-ibm-secure-execution-vms-ibm-z.adoc#virt-configuring-ibm-secure-execution-vms-ibm-z[Configuring {ibm-name} Secure Execution virtual machines on {ibm-z-name} and {ibm-linuxone-name}].
 
-
+{virtproductname} on {ibm-cloud-name} bare-metal nodes is generally available::
+Installing {virtproductname} on {ibm-cloud-name} bare-metal nodes is now generally available. This update provides the ability to install {virtproductname} on {ibm-cloud-title} provisioned bare-metal nodes by using {ai-full}.
++
+link:https://issues.redhat.com/browse/CNV-27898[CNV-27898]
+ 
 // Networking
 Custom MAC pool range configuration:: With this update, cluster administrators can specify a custom MAC pool range for a {VirtProductName} environment, preventing potential MAC address conflicts with other virtualization solutions on the same network. This gives cluster administrators more control over network resources, ensuring greater network stability and resource management efficiency.
 +
