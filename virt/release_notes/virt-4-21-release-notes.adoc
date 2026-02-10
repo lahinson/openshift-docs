@@ -50,7 +50,7 @@ The SVVP certification applies to:
 Installing {virtproductname} on {ibm-cloud-name} bare-metal nodes is now generally available. This update provides the ability to install {virtproductname} on {ibm-cloud-title} provisioned bare-metal nodes by using {ai-full}.
 +
 link:https://issues.redhat.com/browse/CNV-27898[CNV-27898]
- 
+
 // Networking
 Custom MAC pool range configuration:: With this update, cluster administrators can specify a custom MAC pool range for a {VirtProductName} environment, preventing potential MAC address conflicts with other virtualization solutions on the same network. This gives cluster administrators more control over network resources, ensuring greater network stability and resource management efficiency.
 +
@@ -123,6 +123,11 @@ Web console *Reset* button now available::
 With this update, VM owners can force reboot their VMs by clicking *Reset* in the web console. This reboot process preserves user-customized data, such as hot plugged storage, by preserving the pod that contains the VM. This enhancement provides a more efficient and user-friendly experience, as users no longer need to manually manage the reboot process or risk losing their customized data.
 +
 link:https://issues.redhat.com/browse/CNV-51003[CNV-51003]
+
+VNC console now offers access to function keys F1-F12::
+With this update, the VNC console now offers access to function keys F1-F12. This enhancement enables a smoother and more seamless experience for VM owners, by expanding the *Send key* functionality to include function keys.
++
+link:https://issues.redhat.com/browse/CNV-71884[CNV-71884]
 
 // Monitoring
 
