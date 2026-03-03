@@ -6,7 +6,8 @@
 [id="hcp-access-pub-hc-aws_{context}"]
 = Accessing a hosted cluster on {aws-short} by using the kubeadmin credentials
 
-After creating a hosted cluster on {aws-first}, you can access a hosted cluster by getting the `kubeconfig` file, access secrets, and the `kubeadmin` credentials.
+[role="_abstract"]
+After you create a hosted cluster on {aws-first}, you can access it by getting the `kubeconfig` file, access secrets, and the `kubeadmin` credentials.
 
 The hosted cluster namespace contains hosted cluster resources and the access secrets. The hosted control plane runs in the hosted control plane namespace.
 

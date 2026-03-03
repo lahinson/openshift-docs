@@ -6,6 +6,7 @@
 [id="hcp-access-pub-hc-aws-cli_{context}"]
 = Accessing a hosted cluster on {aws-short} by using the hcp CLI
 
+[role="_abstract"]
 You can access the hosted cluster by using the `hcp` command-line interface (CLI).
 
 .Procedure
