@@ -1,0 +1,18 @@
+//Module included in the following assemblies:
+// hosted_control_planes/hcp-deploy/hcp-deploy-azure.adoc
+
+:_mod-docs-content-type: PROCEDURE
+[id="hcp-azure-iam-res_{context}"]
+= Creating {azure-short} Workload Identities
+
+[role="_abstract"]
+To ensure control over Identity and Access Management (IAM) resources in your {azure-short} deployment, create Workload Identities separately from your infrastructure.
+
+Workload Identities authenticate hosted cluster components to {azure-short} services by using OIDC federation. You must create identities separately and then consume them during infrastructure or cluster creation.
+
+.Prerequisites
+
+* You have an {azure-short} credentials file in the following format:
+
+
+.Procedure
