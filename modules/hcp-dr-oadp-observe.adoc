@@ -7,7 +7,8 @@
 [id="hcp-dr-oadp-observe_{context}"]
 = Observing the backup and restore process
 
-When using {oadp-first} to backup and restore a hosted cluster, you can monitor and observe the process.
+[role="_abstract"]
+When you use {oadp-first} to backup and restore a hosted cluster, you can monitor and observe the process.
 
 .Procedure
 
@@ -36,5 +37,16 @@ $ oc logs -n openshift-adp -ldeploy=velero -f
 +
 [source,terminal]
 ----
-$ watch "echo BackupRepositories:;echo;oc get backuprepositories.velero.io -A;echo; echo BackupStorageLocations: ;echo; oc get backupstoragelocations.velero.io -A;echo;echo DataUploads: ;echo;oc get datauploads.velero.io -A;echo;echo DataDownloads: ;echo;oc get datadownloads.velero.io -n openshift-adp; echo;echo VolumeSnapshotLocations: ;echo;oc get volumesnapshotlocations.velero.io -A;echo;echo Backups:;echo;oc get backup -A; echo;echo Restores:;echo;oc get restore -A"
+$ watch "echo BackupRepositories:;echo;oc \
+  get backuprepositories.velero.io -A;echo; \
+  echo BackupStorageLocations: ;echo; \
+  oc get backupstoragelocations.velero.io \
+  -A;echo;echo DataUploads: ;echo;oc get \
+  datauploads.velero.io -A;echo;echo \
+  DataDownloads: ;echo;oc get datadownloads.velero.io \
+  -n openshift-adp; echo;echo \
+  VolumeSnapshotLocations: ;echo;oc get \
+  volumesnapshotlocations.velero.io \
+  -A;echo;echo Backups:;echo;oc get backup \
+  -A; echo;echo Restores:;echo;oc get restore -A"
 ----
