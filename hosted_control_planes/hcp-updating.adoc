@@ -1,23 +1,19 @@
 :_mod-docs-content-type: ASSEMBLY
-[id="hcp-updating"]
 include::_attributes/common-attributes.adoc[]
+[id="hcp-updating"]
 = Updating {hcp}
 :context: hcp-updating
 
 toc::[]
 
-Updates for {hcp} involve updating the hosted cluster and the node pools. For a cluster to remain fully operational during an update process, you must meet the requirements of the xref:../hosted_control_planes/hcp-updating.adoc#hcp-np-version-skew_hcp-updating[hosted cluster and node pool version skew policy] while completing the control plane and node updates.
+[role="_abstract"]
+Updates for {hcp} involve updating the hosted cluster and the node pools. 
+
+For a cluster to remain fully operational during an update process, you must meet the requirements of the hosted cluster and node pool version skew policy while completing the control plane and node updates. 
+
+For more information, see "Hosted cluster and node pool version skew policy" in the _Additional resources_ section.
 
 include::modules/hcp-updating-requirements.adoc[leveloffset=+1]
-
-[role="_additional-resources"]
-.Additional resources
-
-* xref:../updating/updating_a_cluster/updating-cluster-web-console.adoc#updating-cluster-web-console[Updating a cluster using the web console]
-* xref:../updating/updating_a_cluster/updating-cluster-cli.adoc#updating-cluster-cli[Updating a cluster using the CLI]
-* xref:../operators/admin/olm-upgrading-operators.adoc#olm-upgrading-operators[Updating installed Operators]
-* xref:../hosted_control_planes/hcp-updating.adoc#hcp-update-ocp-hc_hcp-updating[Updating a control plane in a hosted cluster]
-* xref:../hosted_control_planes/hcp-updating.adoc#hcp-update-node-pools_hcp-updating[Updating node pools in a hosted cluster]
 
 // Hosted cluster and node pool version skew policy
 include::modules/hcp-np-version-skew.adoc[leveloffset=+1]
@@ -25,11 +21,6 @@ include::modules/hcp-np-version-skew.adoc[leveloffset=+1]
 include::modules/hcp-get-ocp-channel.adoc[leveloffset=+1]
 
 include::modules/hcp-get-upgrade-versions.adoc[leveloffset=+1]
-
-[role="_additional-resources"]
-.Additional resources
-
-* xref:../hosted_control_planes/hcp-updating.adoc#hcp-np-version-skew_hcp-updating[Hosted cluster and node pool version skew policy]
 
 // Updates for the hosted cluster
 include::modules/hcp-updates-hosted-cluster.adoc[leveloffset=+1]
@@ -45,3 +36,18 @@ include::modules/hcp-update-ocp-hc.adoc[leveloffset=+1]
 
 // Updating a hosted cluster by using the mce console
 include::modules/hcp-update-using-mce-console.adoc[leveloffset=+1]
+
+[role="_additional-resources"]
+== Additional resources
+
+* xref:../hosted_control_planes/hcp-updating.adoc#hcp-np-version-skew_hcp-updating[Hosted cluster and node pool version skew policy]
+
+* xref:../updating/updating_a_cluster/updating-cluster-web-console.adoc#updating-cluster-web-console[Updating a cluster using the web console]
+
+* xref:../updating/updating_a_cluster/updating-cluster-cli.adoc#updating-cluster-cli[Updating a cluster using the CLI]
+
+* xref:../operators/admin/olm-upgrading-operators.adoc#olm-upgrading-operators[Updating installed Operators]
+
+* xref:../hosted_control_planes/hcp-updating.adoc#hcp-update-ocp-hc_hcp-updating[Updating a control plane in a hosted cluster]
+
+* xref:../hosted_control_planes/hcp-updating.adoc#hcp-update-node-pools_hcp-updating[Updating node pools in a hosted cluster]
